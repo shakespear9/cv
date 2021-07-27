@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Contact Details</title>
+  </head>
+  <body>
+    <ul>
+      <h1>My Contact Details</h1>
+      <li>Tel. : 080-445-7444</li>
+      <li>
+        Email : <a href="mailto:leendsru@hotmail.com">leendsru@hotmail.com</a>
+      </li>
+      <li>Address : 4 Pattanakarn 20 yak 2 Suanluang Bangkok 10250</li>
+    </ul>
+  </body>
+
+  <form action="mailto:leendsru@hotmail.com" method="POST" enctype="text/plain">
+    <label name="yourName" for="">Your Name:</label>
+    <input type="text" />
+    <br />
+    <label name="yourEmail">Your Email:</label>
+    <input type="email" />
+    <br />
+    <label for="">Your Message:</label><br />
+    <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+    <input type="submit" />
+  </form>
+</html>
